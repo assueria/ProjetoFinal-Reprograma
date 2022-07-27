@@ -40,7 +40,7 @@
     font-weight: bold;
 }
 
-button{
+.botao{
     background-color: #EDB836;
     font-family: 'Inter';
     font-weight: bold;
@@ -51,7 +51,7 @@ button{
     
 }
 
-button:hover{
+.botao:hover{
     background-color: #FADDAC;
     transition: .2s;
     cursor: pointer;

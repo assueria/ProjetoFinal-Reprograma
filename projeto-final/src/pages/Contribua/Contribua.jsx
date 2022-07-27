@@ -1,6 +1,10 @@
+import Footer from "../../components/Footer/Footer"
+
 function Contribua(){
     return(
-        <h1>Contribua</h1>
+        <>
+        <Footer />
+        </>
     )
 }
 

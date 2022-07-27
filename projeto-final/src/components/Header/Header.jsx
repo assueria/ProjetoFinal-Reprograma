@@ -10,7 +10,7 @@ function Header() {
           <h1>PAPEL MULHER</h1>
           <p>coletiva feminista que lambe<br></br> 
             as ruas com poesia de mulheres</p>
-          <button>
+          <button className='botao'>
             Venha nos conhecer!
           </button>
         </div>

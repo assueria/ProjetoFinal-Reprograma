@@ -1,6 +1,11 @@
+import Footer from "../../components/Footer/Footer"
+
 function OndeEstivemos(){
     return(
-        <h1>Onde estivemos</h1>
+        <>
+        <Footer />
+        </>
+
     )
 }
 
