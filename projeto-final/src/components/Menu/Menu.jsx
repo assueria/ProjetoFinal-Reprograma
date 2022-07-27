@@ -10,7 +10,7 @@ function Menu() {
                 <Link className="link" to="/"><img src={logo} alt="Logo da papel mulher, um picel em amarelo e branco, que representa o material usado para colar os lambes."/> </Link>
             </li>
             <li className="item">
-                <Link className="link" to="/">Home</Link>
+                <Link className="link" to="/">Início</Link>
             </li>
             <li className="item">
                 <Link className="link" to="/sobre">Sobre nós</Link>
