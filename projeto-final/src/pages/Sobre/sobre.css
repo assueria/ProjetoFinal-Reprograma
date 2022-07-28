@@ -12,7 +12,7 @@ h2{
     justify-content: center;
     color: #EDB836;
     font-size: 2rem;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .parte1 {
@@ -64,9 +64,11 @@ h2{
     padding: 0 20% 2rem 20%;
 }
 
+.secao2Sobre h2{
+    padding-bottom: 2rem;
+}
 
 .secao2Sobre p{
-    display: flexbox;
     line-height: 1.9rem;
     text-align: justify;
     font-size: 1.3rem;
@@ -76,8 +78,7 @@ h2{
 }
 
 .secao2Sobre img{
-    display: grid;
-    grid-template-columns: 1fr;
+
     padding-bottom: 3rem;
     justify-content: center;
     align-items: center;
