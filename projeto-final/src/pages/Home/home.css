@@ -1,0 +1,120 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+
+.secao1{
+    background-color: #FFF8F8;
+    font-family: 'Inter';
+    padding: 1rem;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.apresentacao h2{
+    display: flex;
+    justify-content: center;
+    color: #EDB836;
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15% 0 15%;
+    justify-content: space-between;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 a{
+    background-color: #9DC7EB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box1 a:hover{
+    background-color: #92B8DA;
+    transition: .2s;
+}
+
+.informacoes img{
+    width: 40vh;
+}
+
+.informacoes p{
+    width: 60%;
+    padding: 2rem;
+    font-size: 1rem;
+    text-align: justify;
+    gap: 30px;
+    line-height: 1.5rem;
+}
+
+.secao2{
+    background-color: #FFF8F8;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    padding-top: 5rem;
+}
+
+hr{
+    border-color:#aaa;
+  box-sizing:border-box;
+  width:100%;  
+}
+
+.secao2 h2{
+    display: flex;
+    justify-content: center;   
+}
+
+.conteudo{
+    padding: 2rem;   
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.item{
+    /* grid-column: content; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF1D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 22rem;
+    height: 10rem ;
+    border-radius: 50px 0;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+span{
+    color: #EDB836;
+    padding-left: 1rem;
+}
