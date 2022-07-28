@@ -10,10 +10,13 @@
     background-color: #FFF8F8;
     font-family: 'Inter';
     padding: 1rem;
-    padding-bottom: 3rem;
+    /* padding-bottom: 2rem; */
     display: flex;
+    padding-top: 2rem;
     align-items: center;
     gap: 30px;
+    
+
 }
 
 .apresentacao h2{
@@ -30,6 +33,7 @@
     align-items: center;
     padding: 0 15% 0 15%;
     justify-content: space-between;
+    
 }
 
 .box1{
@@ -76,17 +80,13 @@
     flex-direction: column;
     font-family: 'Inter';
     padding-top: 5rem;
-}
-
-hr{
-    border-color:#aaa;
-  box-sizing:border-box;
-  width:100%;  
+    
 }
 
 .secao2 h2{
     display: flex;
-    justify-content: center;   
+    justify-content: center;
+    font-size: 2rem;
 }
 
 .conteudo{
@@ -96,6 +96,7 @@ hr{
     align-items: center;
     justify-content: center;
     width: 10%;
+    
 }
 
 .item{
@@ -112,9 +113,11 @@ hr{
     margin: 1rem;
     padding: 1rem;
     text-align: center;
+    
 }
 
 span{
     color: #EDB836;
     padding-left: 1rem;
 }
+

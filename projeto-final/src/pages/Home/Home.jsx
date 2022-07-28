@@ -2,6 +2,8 @@ import Footer from "../../components/Footer/Footer"
 import Header from "../../components/Header/Header"
 import './home.css'
 import imgsection1 from "../../assets/imgsection1.png"
+import imgsection2 from "../../assets/imgsection2.png"
+import line from "../../assets/line.png"
 
 function Home(){
     return(
@@ -29,6 +31,31 @@ function Home(){
                             </p>
 
                             <img src={imgsection1}/>
+                        </div>
+                    </div>
+                    
+                </section>
+                <section className="secao1">
+                    <div className="apresentacao">
+                        <h2>
+                                Quem constrói a Papel Mulher?
+                        </h2>
+
+                        <div className="informacoes">
+
+                            <img src={imgsection2}/>
+                            <p className="box1">
+                            A coletiva nasce da ideia de que existe uma disputa de narrativa,
+                            em especial no campo literário, que reconhece certos discursos, e 
+                            outros não.  Afinal o que é literatura, quem pode produzir literatura? 
+                            As mulheres escrevem? São publicadas? Sobre o que escrevem? A 
+                            Papel Mulher nasce da certeza de que as mulheres escrevem por 
+                            anos, apenas não foram e ainda não são reconhecidas como 
+                            escritoras.
+                            <a>
+                                Ver mais
+                            </a>
+                            </p>
                         </div>
                     </div>
                     
