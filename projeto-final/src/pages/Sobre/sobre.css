@@ -48,7 +48,7 @@ h2{
 .parte2 p{
     width: 40%;
     display: flex;
-    padding: 5% 10% 0 5%;
+    padding: 5% 0 0 5%;
     line-height: 1.9rem;
     text-align: justify;
     font-size: 1.3rem;
@@ -78,8 +78,13 @@ h2{
 }
 
 .secao2Sobre img{
-
     padding-bottom: 3rem;
     justify-content: center;
     align-items: center;
+}
+
+
+.imgsecao2{
+    display: flex;
+    justify-content: center;
 }

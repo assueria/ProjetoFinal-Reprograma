@@ -25,7 +25,7 @@ function Menu() {
                 <a href='https://www.instagram.com/papel.mulher/' target='_blank'>Participe</a>
             </li>
             <li className="unidade">
-                <Link className="link" to="/ondeestivemos">Onde estivemos</Link>
+                <Link className="link" to="/ondeestivemos">Nosso rastro</Link>
             </li>
         </ul>
     </nav>

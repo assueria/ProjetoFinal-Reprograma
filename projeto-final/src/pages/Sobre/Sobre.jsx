@@ -2,6 +2,7 @@ import Footer from "../../components/Footer/Footer"
 import imgsection3 from '../../assets/imgsection3.png'
 import imgsection4 from '../../assets/imgsection4.png'
 import imgsection5 from '../../assets/imgsection5.png'
+import gifpapel from '../../assets/gifpapel.gif'
 import './sobre.css'
 
 function Sobre(){
@@ -85,6 +86,9 @@ function Sobre(){
                         conseguem, basta entrar em contato pelo nosso Instagram. Tudo acontece lá e a nossa organização é feita principalmente pela internet.
 
                     </p>
+                    <div className="imgsecao2">
+                    <img src={gifpapel}/>
+                    </div>
                     <p>
                         A coletiva não possui fins lucrativos, todo dinheiro que entra se transforma em palavra de mulher. 
                         Elaboramos algumas formas de conseguir financiar as ações através de rifas com as artes das mulheres 
