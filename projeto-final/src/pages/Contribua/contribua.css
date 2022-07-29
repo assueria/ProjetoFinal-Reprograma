@@ -1,0 +1,31 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+
+h2{
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+}
+
+.divInformacao{
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.divInformacao img{
+    width: 80%;
+    padding-top: 3rem;
+}
+
+.sectionGeral{
+    display: flex;
+    font-family: 'Inter';
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    padding: 5% 10% 0 6%;
+}
