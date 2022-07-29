@@ -9,7 +9,7 @@
 .div-menu{
   display: flex;
   justify-content: space-between;
-  background-color: #FFF1D9;
+  /* background-color: #FFF1D9; */
   padding: 1.1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;

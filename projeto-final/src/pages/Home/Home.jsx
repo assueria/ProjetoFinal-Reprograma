@@ -3,7 +3,8 @@ import Header from "../../components/Header/Header"
 import './home.css'
 import imgsection1 from "../../assets/imgsection1.png"
 import imgsection2 from "../../assets/imgsection2.png"
-import line from "../../assets/line.png"
+import { Link } from 'react-router-dom'
+
 
 function Home(){
     return(
@@ -26,7 +27,7 @@ function Home(){
                             anos, apenas não foram e ainda não são reconhecidas como 
                             escritoras.
                             <a>
-                                Ver mais
+                                <Link className="link" to="/sobre">Ver mais</Link>
                             </a>
                             </p>
 
@@ -53,7 +54,7 @@ function Home(){
                             anos, apenas não foram e ainda não são reconhecidas como 
                             escritoras.
                             <a>
-                                Ver mais
+                                <Link className="link" to="/sobre">Ver mais</Link>
                             </a>
                             </p>
                         </div>

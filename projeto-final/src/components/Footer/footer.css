@@ -26,6 +26,7 @@ footer{
 
 .itens{
     padding: 1rem;
+    text-decoration: none;
 }
 
 .social-list li{
@@ -49,6 +50,10 @@ footer{
     height: 50px;
     border-radius: 1rem;
     
+}
+.btn a{
+    text-decoration: none;
+    color: black;
 }
 
 .btn:hover{

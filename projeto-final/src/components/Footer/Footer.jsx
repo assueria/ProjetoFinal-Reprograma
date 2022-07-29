@@ -4,6 +4,7 @@ import { BsInstagram, BsMedium, BsYoutube, BsTwitter} from 'react-icons/bs'
 import logoFrase from '../../assets/logoFrase.png'
 
 
+
 function Footer() {
     return(
         <footer className='footer'>
@@ -15,17 +16,25 @@ function Footer() {
                     <ul>
                         <p>FALE CONOSCO</p>
                         <div className='itens'>
-                        <li>
-                            <BsInstagram size='2rem'/>
+                        <li >
+                            <a href="https://www.instagram.com/papel.mulher/" target='_blank'>
+                                <BsInstagram size='2rem' />
+                            </a>
                         </li>
                         <li>
+                            <a href='https://www.youtube.com/channel/UC6DvLhQGY4CS1oQ7fzTNPFQ' target='_blank'>
                             <BsYoutube size='2rem'/>
+                            </a>
                         </li>
                         <li>
+                            <a href='https://twitter.com/papelmulher' target='_blank'>
                             <BsTwitter size='2rem'/>
+                            </a>
                         </li>
                         <li>
+                            <a href='https://papel-mulher.medium.com/' target='_blank'>
                             <BsMedium size='2rem'/>
+                            </a>
                         </li>
                         </div>
                     </ul>
@@ -33,7 +42,9 @@ function Footer() {
                 <div className='espacoContribua'> 
                     <p className='contribua'>Faça uma doação e apoie a iniciativa!</p>
                     <button className='btn'>
-                        Contribua!
+                        <a>
+                            <Link className="link" to="/contribua">Contribua</Link>
+                        </a>
                     </button>
                 </div>
             </div>
