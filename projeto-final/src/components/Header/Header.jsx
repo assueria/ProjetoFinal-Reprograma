@@ -11,7 +11,7 @@ function Header() {
           <p>coletiva feminista que lambe<br></br> 
             as ruas com poesia de mulheres</p>
           <button className='botao'>
-            Venha nos conhecer!
+            <a href='https://www.instagram.com/papel.mulher/' target='_blank'>Participe</a>
           </button>
         </div>
     </div>

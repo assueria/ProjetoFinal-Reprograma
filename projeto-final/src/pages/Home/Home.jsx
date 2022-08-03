@@ -7,8 +7,10 @@ import { Link } from 'react-router-dom'
 
 
 function Home(){
+
     return(
         <>
+        
             <Header />
 
                 <section className="secao1">

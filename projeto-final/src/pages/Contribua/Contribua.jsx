@@ -6,7 +6,7 @@ import "./contribua.css"
 function Contribua(){
     return(
         <>
-        <section >
+        <section className="pagina">
             <h2>
                 Gostaria de contribuir com o trabalho  da Papel Mulher?
             </h2>

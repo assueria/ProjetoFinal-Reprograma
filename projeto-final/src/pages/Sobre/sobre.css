@@ -6,7 +6,9 @@
     border:0;
     font-family: 'Inter';
 }
-
+main{
+    margin-top: 10vh;
+}
 h2{
     display: flex;
     justify-content: center;

@@ -35,7 +35,7 @@ footer{
     display: inline;
 }
 
-.social-list li:hover{
+.social-list li a:hover{
     color: #FFB30B;
     transition: .2s;
 }
@@ -76,4 +76,57 @@ footer{
     display: flex;
     justify-content: space-between;
     font-weight: lighter;
+}
+
+@media screen and (max-width: 900px) {
+    .div-conteudo{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .div-logo{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .espacoContribua{
+        display: block;
+        margin: 2rem;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30vh;
+    }
+
+
+}
+
+@media screen and (max-width: 700px){
+
+    .div-logo{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .copy{
+        margin-top: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5rem;
+    }
+
+    .espacoContribua{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10%;
+    }
+
 }

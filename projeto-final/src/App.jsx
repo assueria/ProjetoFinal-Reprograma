@@ -1,6 +1,7 @@
-import ApplicationRoutes from './routes/ApplicationRoutes'
+import ApplicationRoutes from './routes/ApplicationRoutes';
 
 function App() {
+
 
   return (
     <ApplicationRoutes />

@@ -52,7 +52,7 @@ function Footer() {
             <div className='copy'>
                 <h5>Todos os direitos reservados</h5>
                 <h5>Política de privacidade</h5>
-                <h5>Desenvolvido por Emanuelly Assuéria</h5>
+                <h5>Desenvolvido por Assuéria</h5>
             </div>
         </footer>
     )
